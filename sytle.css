@@ -1,0 +1,118 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(230, 244, 242);
+    margin: 0;
+}
+
+header {
+    background-color:rgba(76, 201, 185, 0.733);
+    color:rgb(86, 29, 166);
+    padding: 30px;
+}
+
+main {
+    margin: 50px;
+}
+
+article {
+    margin: 50px 0px 50px 0px;
+}
+
+.logo {
+    width: 25px;
+}
+
+.comentario {
+    margin-top: 100px;
+}
+
+aside {
+    margin: 100px 0px 100px 50px;
+}
+
+aside nav ul li {
+    margin-bottom: 15px; 
+}
+
+footer {
+    background-color: rgba(76, 201, 185, 0.733); 
+    padding: 5px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.social-icons article img {
+    display: block; 
+    width: 50px;
+    height: auto; 
+}
+
+.produtos {
+    display: flex; 
+    justify-content: center; 
+    gap: 50px; 
+    text-align: center;
+}
+
+.produtos article img {
+    display: block; 
+    width: 250px;
+    height: auto; 
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sobre {
+    display: flex; 
+    justify-content: center; 
+    gap: 50px; 
+    align-items: center;
+}
+
+.sobre img {
+    display: block; 
+    width: 250px;
+    height: auto; 
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+th {
+    background-color: rgba(86, 29, 166, 0.397);
+}
+
+form {
+    display: grid;
+    gap: 10px; 
+}
+
+label {
+    display: block;
+    font-weight: bold; 
+}
+
+input, textarea {
+    width: 30%;
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px; 
+}
